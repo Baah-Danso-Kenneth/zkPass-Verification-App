@@ -21,7 +21,7 @@ function BannerDescription() {
         <Link href="https://zkpass.org/" passHref>
           <Button>Verify with ZKPASS</Button>
          </Link>
-          <Link href="/dashboard" passHref>
+          <Link href="./dashboard" passHref>
             <Button className="ml-2">EXPLORE MORE</Button>
           </Link>
         </CardFooter>
