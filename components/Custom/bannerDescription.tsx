@@ -18,7 +18,7 @@ function BannerDescription() {
           </CardDescription>
         </CardHeader>
         <CardFooter>
-        <Link href="/https://zkpass.org/#verification" passHref>
+        <Link href="https://zkpass.org/" passHref>
           <Button>Verify with ZKPASS</Button>
          </Link>
           <Link href="/dashboard" passHref>
