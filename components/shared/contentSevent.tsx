@@ -1,5 +1,4 @@
 import React from 'react'
-import ContentSix from './contentSix'
 
 
 function ContentSeven() {
