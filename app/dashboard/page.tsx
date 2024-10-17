@@ -1,12 +1,12 @@
-import { DataReview } from '@/components/Custom/dataReview'
+import { DashboardCharts } from '@/components/Custom/dashboard'
 import React from 'react'
 
-function Dashboard() {
+function Details() {
   return (
-    <>
-    <DataReview/>
-    </>
+    <div>
+      <DashboardCharts/>
+      </div>
   )
 }
 
-export default Dashboard
+export default Details

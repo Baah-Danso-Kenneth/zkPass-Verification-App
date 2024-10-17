@@ -1,12 +1,12 @@
 import React from 'react'
+import TableCard from '../Custom/table_card'
 
-
-function ContentSeven() {
+function ContentSevent() {
   return (
     <div>
-
+     <TableCard/> 
     </div>
   )
 }
 
-export default ContentSeven
+export default ContentSevent
