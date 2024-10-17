@@ -16,14 +16,14 @@ function ProductImage() {
         <CardHeader>
           <CardTitle>Identity Verification is not necessary</CardTitle>
           <CardDescription>
-            With zkpass you dont need ID card, passport etc.. for  identity verification 
+            With zkpass you don’t need ID card, passport, etc., for identity verification.
           </CardDescription>
         </CardHeader>
         <CardContent>
           <div className="grid gap-2">
             <Image
               alt="Uploaded document preview"
-              className="aspect-square w-full rounded-md object-cover"
+              className="w-full object-contain rounded-md"
               height="300"
               src="/bill.png"
               width="300"
@@ -32,7 +32,7 @@ function ProductImage() {
               <button>
                 <Image
                   alt="Document thumbnail"
-                  className="aspect-square w-full rounded-md object-cover"
+                  className="w-full object-contain rounded-md"
                   height="84"
                   src="/id.png"
                   width="84"
@@ -41,7 +41,7 @@ function ProductImage() {
               <button>
                 <Image
                   alt="Document thumbnail"
-                  className="aspect-square w-full rounded-md object-cover"
+                  className="w-full object-contain rounded-md"
                   height="84"
                   src="/passport.png"
                   width="84"
@@ -56,7 +56,7 @@ function ProductImage() {
         </CardContent>
         <CardFooter>
           <p className="text-xs text-muted-foreground">
-        zkPass does not need documents for verification
+            zkPass does not need documents for verification.
           </p>
         </CardFooter>
       </Card>
