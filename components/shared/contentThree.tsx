@@ -1,5 +1,4 @@
 import React from 'react'
-import Radial from '../Custom/radial'
 import { Circle } from 'lucide-react'
 import { ChartPie } from '../Custom/piechart'
 
