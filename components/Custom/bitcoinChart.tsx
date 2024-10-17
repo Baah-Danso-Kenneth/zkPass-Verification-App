@@ -7,7 +7,6 @@ import {
   Rectangle,
   ReferenceLine,
   XAxis,
-  YAxis,
 } from "recharts"
 
 import {
@@ -124,7 +123,7 @@ function BitcoinChart() {
   </CardContent>
   <CardFooter className="flex-col items-start gap-1">
     <CardDescription>
-      In the past week, Bitcoin's price fluctuated with a total change of{" "}
+      In the past week, Bitcoin &apos;s price fluctuated with a total change of{" "}
       <span className="font-medium text-foreground">+1,100</span> USD.
     </CardDescription>
     <CardDescription>

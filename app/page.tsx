@@ -1,4 +1,3 @@
-import { DashboardCharts } from '@/components/Custom/dashboard'
 import WelcomeDashboard from '@/components/Custom/welcome_dashboard'
 import React from 'react'
 
