@@ -24,9 +24,9 @@ function ProductImage() {
             <Image
               alt="Uploaded document preview"
               className="w-full object-contain rounded-md"
-              height="300"
+              height={249}
               src="/bill.png"
-              width="300"
+              width={240}
             />
             <div className="grid grid-cols-3 gap-2">
               <button>
